@@ -15,10 +15,11 @@ public class Square extends Figure {
     public double getSide() {
         return side;
     }
-
+    @Override
     public double getArea() {
         return side * side;
     }
+
     @Override
     public void draw() {
         System.out.println("Figure: square, area: " + String.format("%.2f", getArea())

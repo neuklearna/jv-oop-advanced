@@ -1,6 +1,6 @@
 package core.basesyntax;
 
-public class Figure {
+public abstract class Figure implements Drawable {
     private final String color;
 
     public Figure (String color) {
@@ -9,10 +9,5 @@ public class Figure {
 
     public String getColor() {
         return color;
-    }
-
-    public void draw() {
-        System.out.println("Color: " + color);
-
     }
 }

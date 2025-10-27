@@ -20,7 +20,6 @@ public class HelloWorld {
 
             for (Figure figure : result) {
                 figure.draw();
-                System.out.println();
             }
     }
 }

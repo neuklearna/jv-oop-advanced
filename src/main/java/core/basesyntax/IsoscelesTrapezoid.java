@@ -36,6 +36,7 @@ public class IsoscelesTrapezoid extends Figure {
         return height;
     }
 
+    @Override
     public double getArea(){
         return (topBase + bottomBase) * height / 2.0;
     }
