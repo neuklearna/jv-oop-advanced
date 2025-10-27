@@ -7,6 +7,10 @@ public class Figure {
         this.color = color;
     }
 
+    public String getColor() {
+        return color;
+    }
+
     public void draw() {
         System.out.println("Color: " + color);
 
